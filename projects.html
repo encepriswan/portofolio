@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="assets/css/projects.css">
+</head>
+<body>
+  <!-- Particle Background -->
+  <canvas id="particle-bg"></canvas>
+
+  <header class="navbar glass">
+    <div class="logo">
+      <img src="assets/img/logo.png" />
+      <span>Portfolio</span>
+    </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div id="themeToggle">🌙</div>
+</header>
+
+<section class="projects-section">
+  <h2 class="title">Projects</h2>
+
+  <div class="filter-section">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="Legal">Legal</button>
+      <button class="filter-btn" data-category="Certification">Certification</button>
+      <button class="filter-btn" data-category="Training">Training</button>
+      <button class="filter-btn" data-category="Workforce">Workforce</button>
+    </div>
+  </div>
+
+  <div id="project-list" class="project-grid"></div>
+</section>
+
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/particles.js"></script>
+
+</body>
+</html>
